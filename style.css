@@ -937,6 +937,10 @@ div.post img{
    width: 700px;
 }
 
+div.di p.copy{
+    text-align: center !important;
+}
+
 /* Media Queries for Responsiveness */
 
 /* responsiveness */
@@ -994,6 +998,7 @@ div.post img{
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
         padding: 1rem 1rem;
+
     }
 }
 
@@ -1092,6 +1097,10 @@ div.post img{
         padding: 1rem 1rem;
     }
 
+    .grid-t1 img{
+      width: 120px !important;
+    }
+
     .big-footer{
         padding: 10px;
     }
@@ -1133,6 +1142,31 @@ div.post img{
 
     .contact-writeup p.heading{
         font-size: 30px !important;
+    }
+
+    h1.cardheading{
+      font-size: 2.5rem;
+    }
+
+    .writeupdiv{
+      padding: 5%;
+    }
+
+    div#background1.bg p{
+       padding: 5%; 
+    }
+
+    .aboutwriteup p.aboutpara{
+        padding: 5%;
+    }
+
+    div.di p.copy{
+      text-align: center;
+    }
+
+    div.di{
+       display: flex !important;
+       justify-content: center !important; 
     }
         
 }
